@@ -187,6 +187,8 @@ public class NodeCameraView extends FrameLayout implements GLSurfaceView.Rendere
             }
         }
 
+        fsfq
+
 /*        Camera.Size ppsfv = parms.getPreferredPreviewSizeForVideo();
         if (ppsfv != null) {
             this.mCameraWidth = ppsfv.width;
