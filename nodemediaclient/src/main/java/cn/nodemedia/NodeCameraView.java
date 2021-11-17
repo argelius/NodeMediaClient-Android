@@ -187,13 +187,13 @@ public class NodeCameraView extends FrameLayout implements GLSurfaceView.Rendere
             }
         }
 
-        Camera.Size ppsfv = parms.getPreferredPreviewSizeForVideo();
+/*        Camera.Size ppsfv = parms.getPreferredPreviewSizeForVideo();
         if (ppsfv != null) {
             this.mCameraWidth = ppsfv.width;
             this.mCameraHeight = ppsfv.height;
             Log.d(TAG, "Camera preferred preview size for video is " + ppsfv.width + "x" + ppsfv.height);
             parms.setPreviewSize(this.mCameraWidth, this.mCameraHeight);
-        }
+        }*/
     }
 
     public int setAutoFocus(boolean isAutoFocus) {
